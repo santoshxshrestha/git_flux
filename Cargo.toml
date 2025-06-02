@@ -2,7 +2,15 @@
 name = "gitflux"
 version = "0.1.0"
 edition = "2024"
+authors = ["Santosh Shrestha <santoshxshrestha@gmail.com> "]
+description = "command-line tool that provides quick insights into your GitHub commit activity."
+license = "MIT"
+repository = "https://github.com/santoshxshrestha/gitflux"
+homepage = "https://github.com/santoshxshrestha/gitflux"
+documentation = "https://github.com/santoshxshrestha/gitflux#readme"
+readme = "README.md"
 
 [dependencies]
 clap = { version = "4.5", features = ["derive"] }
 reqwest = "0.12.15"
+tokio = { version = "1.45.1", features = ["full"] }
